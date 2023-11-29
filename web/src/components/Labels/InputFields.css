@@ -1,0 +1,28 @@
+.input-text {
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    line-height: 1;
+    box-sizing: border-box;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.submit-button {
+    width: 5rem;
+    background-color:#F4CE47;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 16px 14px;
+    margin: 4px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #4CAF50;
+}

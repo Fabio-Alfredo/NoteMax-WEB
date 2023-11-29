@@ -1,0 +1,46 @@
+@import "../../variables";
+
+
+.Header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-primary;
+    border-bottom: 2px solid #000000;
+
+    .Title {
+        h1{
+            font-family: 'Kavoon';
+            font-size: 32px;
+            color: #000000;
+            margin: 0;
+            cursor: pointer;
+        }
+    }
+
+    .Bottons{
+        padding: 8px 16px;
+        
+
+        button{
+            padding: 16px 30px;
+     
+            font-family: 'Hammersmith One';
+            font-weight: 400;
+            font-size: 18px;
+            color: #000000;
+        
+            background: $color-secondary;
+            border: none;
+            border-radius: 40px;
+        
+            cursor: pointer;
+
+            &:hover{
+                box-shadow: 0 2px 10px 0 rgba(0,0,0,0.6);
+            }
+        
+          }
+    }
+}

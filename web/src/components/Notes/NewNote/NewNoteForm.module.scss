@@ -1,0 +1,91 @@
+@import "../../../variables";
+
+
+section{
+    background-color: $color-primary;
+
+    form{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        
+        .form-input{
+            border: none;
+            font-family: 'HammerSmith One';
+            width: 300px;
+            margin-bottom: 1rem;
+            height: 40px;
+            padding: 8px 10px;
+            background-color: $color-secondary;
+            border-radius: 10px;
+        }
+
+        .note__select{
+            margin-bottom: 10px;
+            font-family: 'HammerSmith One';
+            border-radius: 5px;
+            border: none;
+            padding:2px 5px;
+            background-color: $color-secondary;
+        }
+
+        textarea{
+            width: 900px;
+            height: 100px;
+            padding: 8px 10px;
+            margin-bottom: 1rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-family: 'Kavoon';
+            font-weight: 400;
+            color: $black;
+            background-color: $color-secondary;
+        }
+
+        .BiEraser{
+            font-size: 30px;
+        }
+
+
+        .ButtonD{
+            padding: 16px 30px;
+            margin-right: 10px;
+            margin-bottom: 1rem;
+            font-family: 'Hammersmith One';
+            font-size: 18px;
+            font-weight: 400;
+            color: $black;
+            background: $color-secondary;
+            border: none;
+            border-radius: 40px;
+            border: 2px solid #000000;
+            cursor: pointer;
+
+            &:hover{
+                box-shadow: 0 2px 10px 0 rgba(0,0,0,0.6);
+            }
+        }
+
+        .ButtonC{
+            padding: 16px 30px;
+            margin-left: 10px;
+            margin-bottom: 1rem;
+            font-family: 'Hammersmith One';
+            font-size: 18px;
+            font-weight: 400;
+            color:$white;
+            background: $black;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+
+            &:hover{
+                box-shadow: 0 2px 10px 0 rgba(0,0,0,0.6);
+            }
+        }
+    }
+}

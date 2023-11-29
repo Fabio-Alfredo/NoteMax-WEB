@@ -1,0 +1,12 @@
+.notes-feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .notes-feed__title {
+        font-family: 'Hammersmith One';
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
